@@ -17,8 +17,7 @@ export default function Administrador() {
     <div className="admin-page">
       <div className="admin-header">
         <div className="admin-title">
-          <h1>Aula Libre</h1>
-          <p>Administrador</p>
+          <h1>Administrador</h1>
         </div>
         <div className="admin-avatar">👤</div>
       </div>

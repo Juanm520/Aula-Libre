@@ -27,8 +27,7 @@ export default function Estudiante() {
     <div className="dashboard-page">
       <div className="dashboard-header">
         <div className="dash-title">
-          <h1>Aula Libre</h1>
-          <p>Estudiante</p>
+          <h1>Estudiante</h1>
         </div>
         <div className="dash-icons">
           <span className="dash-icon">📚</span>
