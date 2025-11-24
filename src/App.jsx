@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import Header from './components/Header'
 import Home from './pages/Home'
 import Login from './pages/Login'
@@ -23,6 +23,7 @@ export default function App() {
             <Route path="/estudiante" element={<Estudiante />} />
             <Route path="/docente" element={<Docente />} />
             <Route path="/administrador" element={<Administrador />} />
+            <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </main>
       </div>
